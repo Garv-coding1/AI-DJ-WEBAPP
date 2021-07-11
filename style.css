@@ -1,0 +1,62 @@
+body {
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header {
+    width:100%;
+    margin:0;
+    font-size:37px;
+}
+
+.note {
+    font-size:17px;
+    color: black;
+}
+.speed_div {
+    float:left;
+}
+#speed_img {
+    width:200px;
+    border-radius: 100px;
+}
+.speed{
+    margin-top:20px;
+    white-space:pre-wrap;
+    font-size: 20px;
+}
+.volume_div{
+    float:right;
+}
+
+#volume_img {
+    width:200px;
+    border-radius: 100px;
+}
+.volume {
+    margin-top:20px;
+    white-space: pre-wrap;
+    font-size: 20px;
+}
+.play {
+   
+    font-size:20px;
+}
+
+canvas {
+    border: solid 5px black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px blue;
+}
+
+.img_button{
+    width:50px;
+}
+
+.play,.stop,.pause {
+    border-radius: 45px;
+}
+.stop{
+    margin-left: 10px;
+    margin-right:10px;
+}
